@@ -11,4 +11,5 @@ In each function,
 
 ```
 python3 -m unittest list1.test_list1
+python3 -m unittest test_list1.py
 ```

@@ -1,5 +1,6 @@
 import unittest
-from list1 import list1
+#from list1 import list1
+import list1
 
 
 class List1Test(unittest.TestCase):
@@ -247,3 +248,4 @@ class List1Test(unittest.TestCase):
         for tt_in, expected in test_cases:
             with self.subTest(f"{tt_in} -> {expected}"):
                 self.assertEqual(expected, list1.length_of(tt_in))
+
